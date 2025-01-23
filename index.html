@@ -8,25 +8,31 @@
     <title>Moving Frame</title>
 </head>
 <body>
-   <div class="container" id="container">
+   <div class="card-container" id="container">
        <div class="colors" id="colors">
-            <div class="red" id="red"></div>
-            <div class="green" id="green"></div>
-            <div class="yellow" id="yellow"></div>
+
+               <div class="cell red-border" id="red-border">
+                    <div class="color red-color" id="red-color"></div>
+               </div>
+
+               <div class="cell yellow-border" id="yellow-border">
+                    <div class="color yellow-color" id="yellow-color"></div>
+               </div>
+
+               <div class="cell green-border" id="green-border">
+                    <div class="color green-color" id="green-color"></div>
+               </div>
+               
        </div>
+
        <div class="time" id="time">
             <div class="time-text" id="time-text">Time Elapsed</div>
             <div class="time-numbers" id="time-numbers">0</div>
        </div>
+
        <div class="btns" id="btns">
             <button class="btn play-btn" id="play-btn"><i style="font-size:24px" class="fa">&#xf04b;</i></button>
-            <!-- <button class="play-btn" id="play-btn"><i class="fa fa-play"></i></button> -->
-            <!-- <button class="btn pause-btn" id="pause-btn"><i class="fa fa-pause"></i></button> -->
             <button class="btn restart-btn" id="restart-btn"><i style="font-size:24px" class="fa">&#xf04c;</i></button>
-            <!-- <button class="btn restart-btn" id="restart-btn"><i class="fa fa-rotate-left"></i></button> -->
-            <!-- <div class="play-btn" id="play-btn"></div>
-            <div class="pause-btn" id="pause-btn"></div>
-            <div class="restart-btn" id="restart-btn"></div> -->
        </div>
    </div>
 </body>
